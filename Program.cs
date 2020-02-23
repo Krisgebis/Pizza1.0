@@ -6,12 +6,10 @@ namespace Pizza1
     {
         static void Main(string[] args)
         {
+            var besked = "Hej John";
             Console.WriteLine("Hello World!");
-<<<<<<< Updated upstream
             Console.WriteLine("Hej Kedde");
-=======
             Console.ReadLine();
->>>>>>> Stashed changes
         }
     }
 }
