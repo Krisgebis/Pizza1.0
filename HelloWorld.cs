@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace Pizza
 {
-    class HelloWorld
+    public class HelloWorld
     {	
-		static void Main(string[] args)
+		public static void Hello()
 		{
 			Console.WriteLine("Lønforhandling: The Game!");
 			int betaling = 100;
