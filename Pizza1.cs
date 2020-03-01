@@ -1,14 +1,15 @@
 ﻿using System;
 
-namespace Pizza1
+namespace Pizza
 {
-    class Program
+    class Pizza1
     {
         static void Main(string[] args)
         {
             var besked = "Hej John";
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hej Kedde");
+            Console.WriteLine(besked);
             Console.ReadLine();
         }
     }
