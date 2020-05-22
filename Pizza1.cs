@@ -9,7 +9,8 @@ namespace Pizza
             Console.WriteLine("Hello World!");
             Console.WriteLine("Pick your poison:");
             Console.WriteLine("1) Lønforhandling: The Game");
-            Console.WriteLine("2) Adventures of the Pizza");
+            Console.WriteLine("2) Adventures of Pizza");
+            Console.WriteLine("3) FuzzBuzz: The Game");
             int foersteValg = Int32.Parse(Console.ReadLine());
             if (foersteValg == 1){
                 Console.Clear();
@@ -29,10 +30,11 @@ namespace Pizza
                         int choiseInt = Int32.Parse(choice);
                     }
                 }
+            } 
+            else if (foersteValg == 3){
+                Console.Clear();
+                Fuzz.FuzzBuzz();
             }
-            
-            
-            
         }
     }
 }
